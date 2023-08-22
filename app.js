@@ -10,3 +10,10 @@ for (i = 0; i < 16; i++) {
         row.appendChild(col)
     }
 }
+
+const boxes = document.querySelectorAll('.col')
+boxes.forEach((box) => {
+    box.addEventListener('mouseenter', () => {
+        box.style.backgroundColor = 'black';
+    });
+});
