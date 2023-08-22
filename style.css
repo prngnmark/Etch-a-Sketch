@@ -1,0 +1,21 @@
+#container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.row {
+    background: peachpuff;
+    border: 1px solid brown;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    background: peachpuff;
+    border: 1px solid brown;
+    flex: 1;
+}
